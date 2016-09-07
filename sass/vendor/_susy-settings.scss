@@ -1,0 +1,29 @@
+/* ==========================================================================
+Default susy
+========================================================================== */
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: inside-static,
+  container: auto,
+  container-position: center,
+  columns: 12,
+  gutters: 30px/70px,
+  column-width: 70px,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
